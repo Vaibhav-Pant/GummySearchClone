@@ -63,7 +63,17 @@ const Boxes = styled.div`
     }
 
     @media screen and (max-width: 640px){
-        .boxx .curated{
+        .boxx{
+            grid-template-columns: repeat(1,minmax(0,1fr));
+        }
+    }
+    @media screen and (max-width: 830px){
+        .curated{
+            grid-template-columns: repeat(3,minmax(0,1fr));
+        }
+    }
+    @media screen and (max-width: 580px){
+        .curated{
             grid-template-columns: repeat(1,minmax(0,1fr));
         }
     }

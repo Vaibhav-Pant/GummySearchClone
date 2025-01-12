@@ -29,8 +29,7 @@ const Trending = () => {
               </div>
               <div className="py-2 sm:py-0">
                 <a
-                  href="https://gummysearch.com/demos/growing-subreddits/"
-                  target="_blank"
+                  href="#"
                   className="underline"
                 >
                   More info
@@ -95,7 +94,7 @@ const Trending = () => {
           <div className="flex items-center space-x-4">
             <a
               className="items-center cursor-pointer font-bold justify-center w-full py-2 rounded-md hover:opacity-90 border text-white bg-cyan-500 border-transparent"
-              href="/account/subscription/day-pass/"
+              href="#"
             >
               <div className="flex items-center justify-center">
                 <svg
@@ -138,7 +137,7 @@ const Trending = () => {
           <div className="pt-4 text-sm text-center">
             <a
               className="underline opacity-60 hover:opacity-100"
-              href="/account/subscription/select/"
+              href="#"
             >
               Compare all pricing plans
             </a>
